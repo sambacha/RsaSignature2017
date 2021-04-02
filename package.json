@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/transmute-industries/RsaSignature2017.git"
+    "url": "git+https://github.com/sambacha/RsaSignature2017.git"
   },
   "author": "orie@or13.io",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/transmute-industries/RsaSignature2017/issues"
+    "url": "https://github.com/sambacha/RsaSignature2017/issues"
   },
   "homepage": "https://github.com/transmute-industries/RsaSignature2017#readme",
   "devDependencies": {
