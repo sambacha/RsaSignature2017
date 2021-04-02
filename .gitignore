@@ -1,3 +1,7 @@
 node_modules
 coverage
-codecov.yml
+.DS_Store
+*.log
+.nyc*
+.cache
+

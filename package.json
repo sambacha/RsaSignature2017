@@ -4,8 +4,8 @@
   "description": "A minimal implementation of RsaSignature2017",
   "main": "./src/index.js",
   "scripts": {
-    "test": "jest --coverage --testPathIgnorePatterns __fixtures__ -- ",
-    "codecov": "codecov",
+    "test": "npx jest -u",
+    "codecov": "npx codecov",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": {
@@ -20,11 +20,13 @@
   "homepage": "https://github.com/transmute-industries/RsaSignature2017#readme",
   "devDependencies": {
     "codecov": "^3.1.0",
-    "coveralls": "^3.0.2",
-    "jest": "^23.6.0"
+    "coveralls": "^3.1.0",
+    "handlebars": "^4.5.0",
+    "jest": "^24.9.0",
+    "jest-html-reporter": "^3.3.0"
   },
   "dependencies": {
     "generate-rsa-keypair": "0.2.1",
-    "jsonld": "1.8.1"
+    "jsonld": "^4.0.0"
   }
 }

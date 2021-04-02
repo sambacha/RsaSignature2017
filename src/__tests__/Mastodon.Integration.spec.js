@@ -2,7 +2,7 @@ const fixtures = require('./__fixtures__');
 
 const { verify } = require('../index');
 
-// Example: 
+// Example:
 // https://github.com/tootsuite/mastodon/blob/cabdbb7f9c1df8007749d07a2e186bb3ad35f62b/app/lib/activitypub/linked_data_signature.rb#L30
 describe('RsaSignature2017', () => {
   describe('Mastodon', () => {
